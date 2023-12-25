@@ -78,4 +78,6 @@ iface = gr.Interface(
 
 iface.queue(concurrency_count=1000)
 
-iface.launch()
+
+if __name__ == "__main__":
+    iface.launch()
